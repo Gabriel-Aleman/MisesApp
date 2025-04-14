@@ -1,0 +1,37 @@
+N�mero de Clientes, Nombre, Producto, Moneda, Saldo Inicial, Saldo en Libros, Retenidos y Diferidos, Saldo Disponible, Fecha, STBGAV, STBUNC, Mensaje1, Mensaje2, Mensaje3, Mensaje4, Mensaje5, Mensaje6 
+3739737, GABRIEL DE JESUS DE JESUS ALEMAN RUIZ, CR15010200009616228918, CRC, 2358663.44, 2289143.96, 20290.26, 2268853.70, 31/03/2025, 2333568.81, 0.00, , , , Con BAC Objetivos pod�s ahorrar para lo que te, propong�s. Vos pon�s tus objetivos y nosotros te, ayudamos a alcanzarlos. 
+
+Detalle de Estado Bancario
+Fecha de Transacci�n, Referencia de Transacci�n, C�digo de Transacci�n, Descripci�n de Transacci�n, D�bito de Transacci�n, Cr�dito de Transacci�n, Balance de Transacci�n 
+01/04/2025, 40118120, 3O, INTERESES                     , 0.00, 6.39, 2358669.83 
+02/04/2025, 40206897, 3O, INTERESES                     , 0.00, 6.39, 2358676.22 
+03/04/2025, 40200000, CP, DLC*UBER RIDES\       SAN JOSE, 3597.91, 0.00, 2355078.31 
+03/04/2025, 40306339, 3O, INTERESES                     , 0.00, 6.35, 2355084.66 
+04/04/2025, 40300000, CP, DLC*UBER RIDES\       SAN JOSE, 2690.00, 0.00, 2352394.66 
+04/04/2025, 40300000, CP, DLC*UBER RIDES\       SAN JOSE, 312.80, 0.00, 2352081.86 
+04/04/2025, 40300000, CP, DLC*UBER RIDES\       SAN JOSE, 2964.41, 0.00, 2349117.45 
+04/04/2025, 40411131, 3O, INTERESES                     , 0.00, 6.33, 2349123.78 
+05/04/2025, 40400000, CP, DLC*UBER RIDES\       SAN JOSE, 3024.87, 0.00, 2346098.91 
+05/04/2025, 40505361, 3O, INTERESES                     , 0.00, 6.34, 2346105.25 
+06/04/2025, 40500000, CP, IVA -UBER   *TRIP             , 188.04, 0.00, 2345917.21 
+06/04/2025, 40500000, CP, DLC*UBER EATS\        SAN JOSE, 11917.62, 0.00, 2333999.59 
+06/04/2025, 40500000, CP, DLC*UBER RIDES\       SAN JOSE, 870.19, 0.00, 2333129.40 
+06/04/2025, 40500000, CP, UBER   *TRIP          HELP.UBE, 1446.49, 0.00, 2331682.91 
+06/04/2025, 40699370, 3O, INTERESES                     , 0.00, 6.17, 2331689.08 
+07/04/2025, 40796077, 3O, INTERESES                     , 0.00, 6.32, 2331695.40 
+08/04/2025, 40700000, CP, COURSERA.ORG\         MOUNTAIN, 25382.00, 0.00, 2306313.40 
+08/04/2025, 40890279, 3O, INTERESES                     , 0.00, 6.18, 2306319.58 
+09/04/2025, 40987252, 3O, INTERESES                     , 0.00, 6.25, 2306325.83 
+10/04/2025, 40900000, CP, DLC*UBER RIDES\       SAN JOSE, 1717.68, 0.00, 2304608.15 
+10/04/2025, 40900000, CP, DLC*UBER RIDES\       SAN JOSE, 3963.88, 0.00, 2300644.27 
+10/04/2025, 40900000, CP, DLC*UBER RIDES\       SAN JOSE, 2701.52, 0.00, 2297942.75 
+10/04/2025, 40900248, CP, HAMBURGER FACTORY LA URUCA    , 5950.00, 0.00, 2291992.75 
+10/04/2025, 41003275, 3O, INTERESES                     , 0.00, 6.13, 2291998.88 
+11/04/2025, 41000000, CP, DLC*UBER RIDES\       SAN JOSE, 1354.92, 0.00, 2290643.96 
+11/04/2025, 41000248, CP, SODA DELICIAS TROPICALES      , 1500.00, 0.00, 2289143.96 
+
+Resumen de Estado Bancario
+C�digo Transacci�n Totales , Cantidad D�bitos Totales, Montos D�bitos Totales, Cantidad Cr�ditos Totales, Montos Cr�ditos Totales 
+3O, 0, 0.00, 10, 62.85 
+CP, 16, 69582.33, 0, 0.00 
+Total, 16, 69582.33, 10, 62.85 
