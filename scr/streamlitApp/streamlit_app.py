@@ -1,10 +1,21 @@
 import streamlit as st
+
+
 st.set_page_config(
     page_title="Mises' App",
     page_icon="https://media3.giphy.com/media/njON3jEmTYHEfRbfsk/giphy.gif?cid=6c09b9525bbr07s93freua26rpxlfwwmw2iacpfdyl4owu54&ep=v1_stickers_search&rid=giphy.gif&ct=s",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+
+#Function to Load CSS from the assets folder
+def load_css(file_path):
+    with open(file_path) as f:
+        st.html(f"<style>{f.read()}</style>")
+
+css_path  = "C:\\Users\\gabri\\OneDrive\\Documentos\\MisesApp\\scr\\assets\\styles.css"
+load_css(css_path)
 
 
 
@@ -14,17 +25,20 @@ main_body_logo  = "https://media3.giphy.com/media/njON3jEmTYHEfRbfsk/giphy.gif?c
 st.logo(sidebar_logo, icon_image=main_body_logo)
 
 pages = {
+    "ℹ️ Información": [
+        st.Page("P10_dash.py", title="Dashboard"),
+        st.Page("P11_cat.py", title ="Analísis por categoría"),
+
+    ],
     "⚙️ Configuración": [
-        st.Page("P01_upload.py", title="Subir nuevos datos desde CSV"),
-        st.Page("P04_AddHistMan.py", title="Subir nuevo dato manualmente"),
-        st.Page("P02_AddCat.py", title="Agregar categoría"),
-        st.Page("P03_delCat.py", title="Eliminar categoría"),
+        st.Page("P01_upload.py", title="Cargar nueva información"),
+        st.Page("P02_AddCat.py", title="Categorías"),
+        st.Page("P03_ChangeCats.py", title="Agrupar descripciones"),
 
 
-    ],
-    "ℹ️ Mi información": [
-        st.Page("P10_dash.py", title="Learn about us"),
-    ],
+
+    ]
+
 }
 
 pg = st.navigation(pages)

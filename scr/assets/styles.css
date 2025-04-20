@@ -1,0 +1,18 @@
+.st-key-cont{
+    padding-left: 25px;
+    margin-left: 15px;
+    border-left: 3px solid #c71919; /* ancho, tipo y color */
+}
+
+.st-key-conf {
+  border: 3px outset;
+  border-radius: 15px;
+              
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: box-shadow 2.3s ease;
+  }
+  /* Efecto al hacer hover */
+.st-key-conf:hover {
+    transform: scale(1.009);
+  }
